@@ -1,0 +1,123 @@
+{
+    "blindaje": {
+        "salesForce": [
+            {
+                "campaign" : "blindaje",
+                "reports" : [
+                    {
+                        "code": "blindaje_Retenciones",
+                        "properties": {
+                            "dbType": {
+                                "fecha": "str",
+                                "Serial Number (IPCC)": "str",
+                                "Número de origen de llamada (IPCC)":"str",
+                                "Teléfono a gestionar": "str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": null,
+                        "useColumns": null
+                    },
+                    {
+                        "code": "blindaje_Reporte_Con_Hora",
+                        "properties": {
+                            "dbType": {
+                                "fecha": "str",
+                                "Serial Number (IPCC)": "str",
+                                "Número de origen de llamada (IPCC)":"str",
+                                "Teléfono a gestionar": "str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": null,
+                        "useColumns": null
+                    },
+                    {
+                        "code": "CNE_NC",
+                        "properties": {
+                            "dbType": {
+                                "Fecha": "str",
+                                "Serial Number (IPCC)": "str",
+                                "Número de origen de llamada (IPCC)":"str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": null,
+                        "useColumns": null
+                    },
+                    {
+                        "code": "Cons_Ret_Post_out",
+                        "properties": {
+                            "dbType": {
+                                "Fecha de creación": "str",
+                                "IPCC Serial Number": "str",
+                                "Teléfono a gestionar":"str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": 22,
+                        "useColumns": "B:BD"
+                    },
+                    {
+                        "code": "CE",
+                        "properties": {
+                            "dbType": {
+                                "Fecha de creación": "str",
+                                "IPCC Serial Number": "str",
+                                "Teléfono a gestionar":"str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": 21,
+                        "useColumns": "B:AP"
+                    }
+                ]
+            },
+            {
+                "campaign" : "AppMiClaro",
+                "reports" : [
+                    {
+                        "code": "CNe_Nc",
+                        "properties": {
+                            "dbType": {
+                                "fecha": "str",
+                                "Serial Number (IPCC)": "str",
+                                "Número de origen de llamada (IPCC)":"str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": null,
+                        "useColumns": null
+                    },
+                    {
+                        "code": "Retencion_Postpago",
+                        "properties": {
+                            "dbType": {
+                                "Fecha de creación": "str",
+                                "Teléfono a gestionar": "str",
+                                "Fecha/hora de creación":"str",
+                                "Serial Number (IPCC)":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": 21,
+                        "useColumns": "B:BE"
+                    }
+                ]
+            }
+        ]
+    }
+}

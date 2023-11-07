@@ -1,0 +1,26 @@
+{
+    "blindaje": {
+        "salesForce": [
+            {
+                "campaign" : "blindaje",
+                "reports" : [
+                    {
+                        "code": "CE",
+                        "properties": {
+                            "dbType": {
+                                "Fecha de creación": "str",
+                                "IPCC Serial Number": "str",
+                                "Teléfono a gestionar":"str",
+                                "Fecha/hora de creación":"str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        },
+                        "skipRows": 21,
+                        "useColumns": "B:AP"
+                    }
+                ]
+            }
+        ]
+    }
+}

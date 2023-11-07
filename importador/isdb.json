@@ -1,0 +1,261 @@
+{
+    "blindaje": {
+        "bicp": [
+            {
+                "campaign": "blindaje",
+                "reports": [
+                    {
+                        "code": "112",
+                        "properties": {
+                            "dbType": {
+                                "Called Number": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },
+                    {
+                        "code": "401",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },                    
+                    {
+                        "code": "1259",
+                        "properties": {
+                            "dbType": {
+                                "Id llamada": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },
+                    {
+                        "code": "1261_mov01",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },
+                    {
+                        "code": "1261_mov02",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },
+                    {
+                        "code": "1261_bit03",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "contactado",
+                "reports": [
+                    {
+                        "code": "112",
+                        "properties": {
+                            "dbType": {
+                                "Called Number": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "401",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "1259",
+                        "properties": {
+                            "dbType": {
+                                "Id llamada": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "recuperoInbound",
+                "reports": [
+                    {
+                        "code": "401",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "1259",
+                        "properties": {
+                            "dbType": {
+                                "Id llamada": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "retencionesInbound",
+                "reports": [
+                    {
+                        "code": "26",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "43",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "90",
+                        "properties": {
+                            "dbType": {
+                                "% CAT": "str"
+                            },
+                            "renameColumns": {
+                                "% CAT": "PERCENTAGE CAT"
+                            },
+                            "converters": [
+                                "% CAT",
+                                "Ocupación"
+                            ]
+                        }
+                    },
+                    {
+                        "code": "112",
+                        "properties": {
+                            "dbType": {
+                                "Called Number": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "192",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {
+                                "% AT": "PERCENTAGE CAT"
+                            },
+                            "converters": [
+                                "% AT",
+                                "Ocupación"
+                            ]
+                        }
+                    },
+                    {
+                        "code": "194",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {
+                                "% AT": "PERCENTAGE AT",
+                                "%AVH2": "PERCENTAGEAVH2",
+                                "% CAT": "PERCENTAGE CAT"
+                            },
+                            "converters": [
+                                "% AT",
+                                "  %AVH2            ",
+                                "% CAT  ",
+                                "Ocupación",
+                                "NS en 15 seg"
+                            ]
+                        }
+                    },
+                    {
+                        "code": "418",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "1392",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    }
+                ]
+            },
+            {
+                "campaign": "AppMiClaro",
+                "reports": [
+                    {
+                        "code": "112",
+                        "properties": {
+                            "dbType": {
+                                "Called Number": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "1259",
+                        "properties": {
+                            "dbType": {
+                                "Id llamada": "str"
+                            },
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "1261",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": {}
+                        }
+                    },
+                    {
+                        "code": "401",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    },
+                    {
+                        "code": "43",
+                        "properties": {
+                            "dbType": {},
+                            "renameColumns": {},
+                            "converters": []
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
